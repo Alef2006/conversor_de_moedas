@@ -1,0 +1,10 @@
+^C:\PROJETOS\CONVERSOR_DE_MOEDAS\BUILD\WINDOWS\X64\CMAKEFILES\29470E9BDDE16A79B4509E1550560619\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/projetos/conversor_de_moedas/windows -BC:/projetos/conversor_de_moedas/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/projetos/conversor_de_moedas/build/windows/x64/conversor_de_moedas.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

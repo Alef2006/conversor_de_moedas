@@ -1,0 +1,10 @@
+^C:\PROJETOS\CONVERSOR_DE_MOEDAS\BUILD\WINDOWS\X64\CMAKEFILES\29470E9BDDE16A79B4509E1550560619\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\projetos\conversor_de_moedas\build\windows\x64\CMakeFiles\570c7faf2b906c1373f72bdfe552b352\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\projetos\conversor_de_moedas\build\windows\x64\CMakeFiles\d463cea3c35e093821cab9e53e4848ae\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\projetos\conversor_de_moedas\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\projetos\conversor_de_moedas\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B8ACAD7C-4F8A-3F30-87C5-1B487C4AD68B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
